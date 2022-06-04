@@ -6,7 +6,7 @@
 
 ### 06/03/2022  
 
-![Header Image](images/19-4-challenge-image.png)
+![Header Image](blob/main/Images/19-4-challenge-image.png)
 
 ## Overview
 
