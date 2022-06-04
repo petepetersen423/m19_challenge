@@ -6,7 +6,7 @@
 
 ### 06/03/2022  
 
-![Header Image](blob/main/Images/19-4-challenge-image.png)
+![Header Image](19-4-challenge-image.png)
 
 ## Overview
 
@@ -14,11 +14,11 @@ Fintech Finder is an application that its customers can use to find fintech prof
 
 ## Screenshot of working application with transaction hash displayed
 
-![Header Image](images/working_app_with_valid_tx_hash.jpg)
+![Header Image](working_app_with_valid_tx_hash.jpg)
 
 ## Screenshot of transaction history to Fintech pro wallets
 
-![Add a Block](images/ganache_fintech_tx.jpg)  
+![Add a Block](ganache_fintech_tx.jpg)  
 
 ## Screenshot of wallet balances
 
@@ -28,13 +28,13 @@ Fintech Finder is an application that its customers can use to find fintech prof
 
 ## Screenshot of transaction on a mined block
 
-![Add a Block](images/ganache_tx_on_mined_block.jpg)  
+![Add a Block](ganache_tx_on_mined_block.jpg)  
 
 ## crypo_wallet.py
 
 **crypto_wallet.py** is a python script the houses the main functions ( generate_account, get_balance, send_transaction )used by the app.py and has the following dependancies.
 
-```
+```python
 
 #####################################################################
 # Imports
@@ -55,7 +55,7 @@ from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 **fintech_finder.py** is a python script the builds the user ineteface using streamlit.  The streamlit application import the wallet operations function from **crypto_wallet.py**
 
-```
+```python
 
 #####################################################################
 # Imports
