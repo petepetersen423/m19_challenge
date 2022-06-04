@@ -24,7 +24,7 @@ Fintech Finder is an application that its customers can use to find fintech prof
 
 **Note:  The mnemonic display in this Ganache account screenshot was also utilized in the application by also storing the mnemomic in .env and return the values from the OS using load_dotenv() and os packages**
 
-![Add a Block](images/ganache_fintech_balances.jpg)  
+![Add a Block](ganache_fintech_balances.jpg)  
 
 ## Screenshot of transaction on a mined block
 
